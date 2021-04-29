@@ -1,0 +1,41 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+
+#App {
+  display: flex;
+}
+
+.tetris { 
+  position:fixed;
+  top:0;   
+  left:50%;  
+  width:50%; 
+  height:100% 
+}
+
+.morpion {
+  position:fixed;
+  top:50%;   
+  left:0;    
+  width:50%; 
+  height:50%
+}
+
+.hanged {
+  position:fixed;
+  top:0;   
+  left:0;  
+  width:50%; 
+  height:50%
+}
+
+.test {
+  background-color: blue;
+}
+

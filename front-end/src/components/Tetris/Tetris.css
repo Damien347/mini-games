@@ -1,0 +1,32 @@
+.grid span {
+    height: 30px;
+    width: 30px;
+    display: block;
+    float: left;
+    border: 1px solid black;
+}
+
+.grid span.color{
+    background: black;
+    color: white;
+}
+
+
+.grid span.first {
+    clear: both;
+}
+
+.grid span.projection:not(.color) {
+background: rgba(0, 0, 0, 0.2);
+}
+
+#nextPiece {
+    position:absolute;
+    right: 350px;
+    top: 350px;
+
+}
+
+.color-piece1 {
+    background-color: blue;
+}
